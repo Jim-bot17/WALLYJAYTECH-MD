@@ -10714,9 +10714,13 @@ ${Object.entries(global.db.data.sticker)
               to: "hi",
               autoCorrect: true,
             });
+            let translatedChapterDeutsch = await translate(chapterData.text, {
+              to: "de",
+              autoCorrect: true,             
+            });
             let translatedChapterEnglish = await translate(chapterData.text, {
               to: "en",
-              autoCorrect: true,
+              autoCorrect: true,                          
             });
             let bibleChapter = `
 📖 *The Holy Bible*\n
@@ -10725,6 +10729,8 @@ Type: ${chapterData.translation_name}\n
 Number of verses: ${chapterData.verses.length}\n
 🔮 *Chapter Content (English):*\n
 ${translatedChapterEnglish.text}\n
+🔮 *Chapter Content (Deutsch):*\n
+${translatedChapterDeutsch.text}\n
 🔮 *Chapter Content (Hindi):*\n
 ${translatedChapterHindi.text}`;
             replygcXlicon(bibleChapter);
