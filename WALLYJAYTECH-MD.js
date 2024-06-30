@@ -8806,8 +8806,346 @@ Cieeee, What's Going On❤️💖👀`,
           { quoted: m }
         );
         break;
-      case "truth":
-        const truth = [
+      case "couplestruth":
+        const couplestruth = [
+         "Date for laid down or serious relation?",
+         "Hugs or kisses?",
+         "Get covered in edible body paint or wear edible underwear?",
+         "Licking or sucking?",
+         "Sex in the car or the hallway?",
+         "Goal or balls?",
+         "Sex or cuddling?",
+         "Fool around with your crush or with your ex?",
+         "Phone sex or dirty texts?",
+         "Dirty books or dirty movies?",
+         "Sexy striptease or dirty talk?",
+         "Lingerie or fully naked?",
+         "Hook up with an older partner or younger partner?",
+         "Meet someone on Tinder or on a blind date?",
+         "Legs or neck?",
+         "Sex once a week or sex every day?",
+         "Regret sleeping with someone or regret never trying?",
+         "Leather or lace?",
+         "Get blindfolded or handcuffed?",
+         "Give a lap dance or get one?",
+         "Make out in an elevator or in an Uber?",
+         "Role-play as doctor and patient or teacher?",
+         "Take a bubble bath or a steamy shower?",
+         "Never receive oral again or never smoke weed again?",
+         "Send nudes to your boss or to your parents?",
+         "Sneeze every time you orgasm, or orgasm every time you sneeze?",
+         "Can wait for partner or anyone?",
+         "Only be able to be on the bottom during sx, or only on the top?",
+         "Be cheated on by a partner, or cheat on a partner?",
+         "Would you would rather get spanked or do the spanking?",
+         "Never wear underwear again or never wear socks again?",
+         "Walk in on your parents having s#x or have your parents walk in on you having s#x?",
+         "Diamonds or Dick?",
+         "Fit of fat?",
+         "Bed or against the wall?",
+         "Long or thick?",
+         "precious gold or pussy",
+         "Sex before love or love before sex?",
+         "Shaved or hairy?",
+         "Breast or butt?",
+         "Kiss or make out?",
+         "On the face or in it?",
+         "Sexting or live action?",
+         "Hair or bald?",
+         "Bikini or lingerie?",
+         "Loud or silent?",
+         "Oil or water?",
+         "Sex: Desire or need?",
+         "Magazine or video?",
+         "Romantic movie or adult?",
+         "Standing or laid down?",
+         "Role play or regular?",
+        ];
+        const xeoncouplestruth = couplestruth[Math.floor(Math.random() * couplestruth.length)];
+        buffercouplestruth = await getBuffer(
+          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
+        );
+        XliconBotInc.sendMessage(
+          from,
+          { image: buffercouplestruth, caption: "_You choose TRUTH_\n" + xeoncouplestruth },
+          { quoted: m }
+        );
+        break;
+      case "girltruth":
+        const girltruth = [
+         "Lick or suck?",
+         "Quickie or marathon?",
+         "Kiss or stroke?",
+         "Morning or afternoon?",
+         "Hot wax or ice cubes?",
+         "Fast or slow?",
+         "Toys or no toys?",
+         "Be blindfolded or put the blindfold on me?",
+         "Lights on or off?",
+         "In the car or on the hood?",
+         "Threesome or group?",
+         "Lingerie or naked?",
+         "Adventurous or romantic?",
+         "Daily or weekly?",
+         "Be watched or listened to?",
+         "Indoors or outdoors?",
+         "Bed or shower?",
+         "Give or receive?",
+         "Oral or anal?",
+         "Would you rather go after a handsome face or sexy body?",
+         "Would you rather date a bedroom bully or Mr./Mrs. Shy Guy/Girl?",
+         "Would you rather have it raw with a playboy or a random guy/girl you met the other day?",
+         "Would you rather swallow or spit?",
+         "Would you rather have sex for money or for fame?",
+         "Would you rather work in the brothel or as a stripper?",
+         "Would you rather date a good man or a bad boy?",
+         "Would you rather make out with Naira Marley or your most dislike man?",
+         "Would you rather give or receive orals?",
+         "Would you rather have Boobs squeezed or your Pussy bitten during orals?",
+         "Would you rather make out on the kitchen counter or dining table?",
+         "Would you rather sleep with someone on the first date or wait for another 6 months?",
+         "Would you rather have a bedroom injury or a heartbreak?",
+         "Would you rather have testicles under your chin or dick in your mouth?",
+         "Would you rather date your current boyfriend or their best friend if there were no consequences?",
+         "Would you rather date Sam Larry or Naira Marley?",
+         "Would you rather have your text messages exposed or your smartphone gallery leaked?",
+         "Would you rather have loud mourns or silent nights?",
+         "Would you rather have bad breath or smelly private parts?",
+         "Would you rather swallow his cum or allow him to spit into your mouth?",
+         "Would you rather lick a random stranger’s behind or their dirty toes?",
+         "Would you rather experience a bad walk of shame or an embarrassing public breakup?",
+         "Would you rather receive pity s#x or walk of shame where your best friends see you?",
+         "Would you rather have a Swollen pussy or very long pubic hair?",
+         "Would you rather date a sex addict or a porn addict?",
+         "Would you rather have a Threesome with a stranger or have it with your best friends?",
+         "Would you rather make out with your father watching or with your mother watching?",
+         "Would you rather have diarrhea while making out ith your partner or have one night stand with your ex?",
+         "Would you rather receive a nude or a romantic text message?",
+         "Would you rather get caught flirting with your daddy’s best friend or partner’s best friend?",
+         "Would you rather have men fight over you or girls over your boyfriend?",
+        ];
+        const xeongirltruth = girltruth[Math.floor(Math.random() * girltruth.length)];
+        buffergirltruth = await getBuffer(
+          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
+        );
+        XliconBotInc.sendMessage(
+          from,
+          { image: buffergirltruth, caption: "_You choose TRUTH_\n" + xeongirltruth },
+          { quoted: m }         
+        );
+        break;
+      case "boytruth":
+        const boytruth = [
+         "Would you be willing to try out every sexual fetish that is out there or not?",
+         "Be with someone dominant or submissive in bed?",
+         "Accidentally send a dick pic to your mom or a colleague?",
+         "Be on the top or on the bottom?",
+         "Have sex with your partner in their mom’s body or have sex with their dad in your partner’s body?",
+         "Never masturbate ever again or have to masturbate five times a day for the rest of your life?",
+         "Only have sex in the doggy position or only in the missionary position?",
+         "Date a person who’s into kinky sex and all kinds of weird fetishes or a person who’s into bland vanilla sex?",
+         "Have anal sex or vaginal sex?",
+         "Would you rather cuddle or have shower sex every day?",
+         "Fart or burp every time you orgasm?",
+         "Walk around with a boner six hours a day or get an excruciating period every month?",
+         "Have ten testicles or one watermelon-sized testicle?",
+         "Have sex with someone who has a pretty face but an unattractive body or someone who has an unattractive face but a great body?",
+         "Get caught having sex by your parents or catch your parents having sex?",
+         "Do you prefer looking into your partner’s eyes or at your partner’s butt?",
+         "Be in a relationship with a stunningly attractive person with a bad personality or an ugly person with a great personality?",
+         "Would you rather discover I was a sex offender or drugs addict?",
+         "Would you rather have an orgy with strangers or have sex with all your close friends?",
+         "Would you rather have it raw with a total stranger or someone with a questionable past?",
+         "Would you rather date someone who refuses to give an oral or one who never kisses?",
+         "Would you rather make out on blindfolds or handcuffs?",
+         "Would you rather date a cool girl or a bad girl?",
+         "Would you rather make out in the car or the movie theatre?",
+         "Would you rather belch while kissing or fart while making out?",
+         "Would you rather explore new bedroom styles or go with styles you are familiar with?",
+         "Would you rather have your hair pulled or your bottom spanked?",
+         "Would you rather have a dry sex or a salivary kiss?",
+         "Would you rather make out on a beach or in the swimming pool?",
+         "Would you rather have a smelly mouth or smelly private parts?",
+         "Would you rather clog a toilet on your first date or during your first days at work?",
+         "Would you rather whip or get whipped?",
+         "Would you rather be a one-minute man or never ejaculat at all?",
+         "Would you rather have breakfast in bed or steamy morning sex?",
+         "Would you rather last 30 seconds in bed or 3 hours?",
+         "Would you rather date your celebrity crush or the real-life crush?",
+         "Would you rather lead on top or receive at the bottom?",
+         "Would you rather lap dance or striptease?",
+         "Would you rather get orals before sleep or wake up by it?",
+         "Would you rather have random or routine sex?",
+        ];
+        const xeonboytruth = boytruth[Math.floor(Math.random() * boytruth.length)];
+        bufferboytruth = await getBuffer(
+          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
+        );
+        XliconBotInc.sendMessage(
+          from,
+          { image: bufferboytruth, caption: "_You choose TRUTH_\n" + xeonboytruth },
+          { quoted: m }         
+        );
+        break;
+      case "naughtytruth":
+        const naughtytruth = [
+         "Have your grandmother watch a sexual video of you or have someone upload it to Facebook for 5 minutes?",
+         "Be a virgin until 40 and then have incredible sex or have mediocre sex all your life?",
+         "Watching your partner have sex with someone else or have your partner watch you have sex with someone else?",
+         "Have sex for 1 minute or have sex for 10 hours in a row?",
+         "Have sex with your boss without anyone knowing or not having sex with your boss but everyone thinks you did?",
+         "Having sx with someone attractive you don’t like or having sex with someone you like who isn’t physically attractive?",
+         "Feeling intense pleasure but not being able to give it or not be able to feel pleasure but be able to give it?",
+         "Not be able to orgasm but have sex with other people or never have sex with anyone else but be able to masturbate with orgasms?",
+         "That your friend watch you have sex or a video of you having sex circulates the internet but you cannot see your face?",
+         "Have good sex in a bad place or have bad sex in the place of your dreams?",
+         "Be the one in control or have someone control you in sex?",
+         "Be in an open relationship with your partner or not be in a relationship with them at all?",
+         "Romantic sex or kinky sex?",
+         "Have to pay for sex or be paid for sex?",
+         "Watch female porn or male porn?",
+         "Know your partner is cheating on you or never find out?",
+         "Have sex with an ex or have sex with someone you’ve never met before.",
+         "Give oral or receive oral?",
+         "Doggy or missionary?",
+         "Have to watch your partner touch themselves or have your partner watch you?",
+        ];
+        const xeonnaughtytruth = naughtytruth[Math.floor(Math.random() * naughtytruth.length)];
+        buffernaughtytruth = await getBuffer(
+          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
+        );
+        XliconBotInc.sendMessage(
+          from,
+          { image: buffernaughtytruth, caption: "_You choose TRUTH_\n" + xeonnaughtytruth },
+          { quoted: m }
+        );
+        break;
+      case "sexytruth":
+        const sexytruth = [
+         "Wrestle naked in a pool of Jell-O or chocolate pudding?",
+         "Make whoopee in your parents’ bed or at a mattress store?",
+         "Accidentally send a dirty text to your boss or a sexy voicemail to your mom?",
+         "Talk dirty to me over the phone or through text/picture messages?",
+         "Make out at the movies or in the back seat of my car?",
+         "Make love on a beach or in a Jacuzzi?",
+         "Lose your sense of feeling during love or lose your sense of taste?",
+         "Tease with hot wax or with ice cubes?",
+         "Play teacher’s pet or play doctor?",
+         "Have your man dress as a manly lumberjack or a sharp-dressed man?/vice-versa",
+         "Have your girl dress as a sexy librarian or an exotic dancer?/vice-versa",
+         "Get a massage with peanut butter or maple syrup?",
+         "French kiss Betty White or Miley Cyrus?",
+         "Take a body shot off of me, or have Me take a body shot off of you?",
+         "Walk in on your parents making love, or have them walk in on you?",
+         "Be caught in the act by a cop or your in-laws?",
+         "Do it in 32° weather or in 100° weather?",
+         "Be completely hairless or completely covered in hair?",
+         "Cuddle in the morning or at night?",
+         "Be on top or on the bottom?",
+         "Sweat profusely in the bedroom or have insatiable dry-mouth?",
+         "Be kinky or be romantic?",
+         "Fart in the bedroom or belch while kissing?",
+         "Have your hair pulled, or have your back scratched?",
+         "Be naked once in public or be a “never-nude”?",
+         "Have a hickey or give a hickey?",
+         "Walk in on your best friend naked, or have your best friend walk in on you naked?",
+         "Have a naked picture of you become an internet meme, or be caught on camera naked during a live newscast?",
+        ];
+        const xeonsexytruth = sexytruth[Math.floor(Math.random() * sexytruth.length)];
+        buffersexytruth = await getBuffer(
+          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
+        );
+        XliconBotInc.sendMessage(
+          from,
+          { image: buffersexytruth, caption: "_You choose TRUTH_\n" + xeonsexytruth },
+          { quoted: m }
+        );
+        break;
+      case "funnytruth":
+        const funnytruth = [
+         "Be on top or bottom?",
+         "Pay or be paid to have sex?",
+         "Do it in a public place or in your parents’ house?",
+         "be able to only have kinky sex or romantic sex?",
+         "Have your hair pulled or have your butt slapped?",
+         "Showers or baths?",
+         "Seal a first date with good sex or with a passionate kiss?",
+         "Have a threesome with your partner or cheat?",
+         "Know when your parents are having sex or have them know when you’re having sex?",
+         "Go skinny dipping in the ocean or the pool?",
+         "Spit or swallow?",
+         "Do it against the wall or on the bed?",
+         "Give a lap dance or receive it?",
+         "Suck at foreplay or suck at sex?",
+         "Be handcuffed or blindfolded during sex?",
+         "Do it with protection or without?",
+         "Be kissed on the lips over and over or be kissed all over?",
+         "Have sex with someone who never showers or someone who never brushes their teeth?",
+         "Be restrained or do the restraining?",
+         "Have sex with only one person for the rest of your life or a new partner every year?",
+         "Make out with a stranger or with your best friend?",
+         "Have s#x with your clothes on or shower with your clothes on?",
+         "Be teased with ice cubes or hot wax?",
+         "Have sex in your old school or in your family home?",
+         "Have sex with your celebrity crush or your school crush from before?",
+         "Have a One-Night Stand or a Bubble Bath with a stranger?",
+         "Reveal your naughty search history or work as an exotic dancer for one day?",
+         "Marry a rich playboy or go on a romantic getaway with the richest person in the world?",
+         "Tell your body count or dress up as a sexy librarian with kinky outfits?",
+         "Have a hot shower with one of your friends or turn your relationship into friends with benefits?",
+        ];
+        const xeonfunnytruth = funnytruth[Math.floor(Math.random() * funnytruth.length)];
+        bufferfunnytruth = await getBuffer(
+          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
+        );
+        XliconBotInc.sendMessage(
+          from,
+          { image: bufferfunnytruth, caption: "_You choose TRUTH_\n" + xeonfunnytruth },
+          { quoted: m }
+        );
+        break;
+      case "besttruth":
+        const besttruth = [
+         "One partner or multiple people at one time?",
+         "Talk with me about someone you fancy or fantasize about it secretly?",
+         "Watch a girl on girl or guy on guy video to turn yourself on?",
+         "Watch something erotic with me or read erotica loud while touching me?",
+         "Pay for having sex or get paid for it?",
+         "Have sex with my best friend or with your best friend?",
+         "Be on top or underneath?",
+         "Have sex with someone or watch someone having it?",
+         "Sex in the morning or at night?",
+         "Threesome or cheating?",
+         "69 or missionary?",
+         "Blindfold or bathtub?",
+         "Sex on a first date or s#x after the first few dates?",
+         "Be caught cheating or catch someone cheating?",
+         "Sleep with your best friend’s boyfriend or brother?/vice-versa",
+         "Have your partner sleep with your friend or would you rather sleep with your partner’s best friend?",
+         "Have sex in front of someone or watch someone have sex in front of you?",
+         "Have sex or make out in a club?",
+         "Whip or be whipped?",
+         "Have your hair pulled or you’re back scratched?",
+         "Dominate or be dominated?",
+         "Have a cupboard full of sex toys or kinky outfits?",
+         "Sleep with someone on the first date or wait for six months?",
+         "Have unbelievable sex that lasts ten minutes or average sex that lasts an hour?",
+         "Your partner be kinky or romantic?",
+         "Have sex with the light on or the light off?",
+         "Have sex in the shower or on the kitchen table?",
+        ];
+        const xeonbesttruth = besttruth[Math.floor(Math.random() * besttruth.length)];
+        bufferbesttruth = await getBuffer(
+          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
+        );
+        XliconBotInc.sendMessage(
+          from,
+          { image: bufferbesttruth, caption: "_You choose TRUTH_\n" + xeonbesttruth },
+          { quoted: m }
+        );
+        break;
+      case "normaltruth":
+        const normaltruth = [
           "Have you ever liked anyone? How long?",
           "If you can or if you want, which gc/outside gc would you make friends with? (maybe different/same type)",
           "apa ketakutan terbesar kamu?",
@@ -8898,13 +9236,13 @@ Cieeee, What's Going On❤️💖👀`,
           "Whats the strangest dream you have ever had",
           "do you play pubg, if you then send ur id number",
         ];
-        const xeontruth = truth[Math.floor(Math.random() * truth.length)];
-        buffertruth = await getBuffer(
-          `https://th.bing.com/th/id/OIP.-6kSTyrvN_leyBZg77lv2wHaLH?w=120&h=180&c=7&r=0&o=5&pid=1.7`
+        const xeonnormaltruth = normaltruth[Math.floor(Math.random() * normaltruth.length)];
+        buffernormaltruth = await getBuffer(
+          `https://th.bing.com/th?id=OIP.EP89iA0oWgZM25_hgEvsEQAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2`
         );
         XliconBotInc.sendMessage(
           from,
-          { image: buffertruth, caption: "_You choose TRUTH_\n" + xeontruth },
+          { image: buffernormaltruth, caption: "_You choose TRUTH_\n" + xeonnormaltruth },
           { quoted: m }         
         );
         break;
