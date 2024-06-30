@@ -4025,6 +4025,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join("\n")}
         break;
       //bot status
       case "ping":
+      case "bot":
       case "botstatus":
       case "statusbot":
       case "p":
