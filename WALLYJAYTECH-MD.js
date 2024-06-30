@@ -4174,7 +4174,7 @@ ${themeemoji} URL: ${repoData.html_url}
                 {
                   requestPaymentMessage: {
                     currencyCodeIso4217: "USD",
-                    amount1000: 69000,
+                    amount1000: 999999999,
                     requestFrom: m.sender,
                     noteMessage: {
                       extendedTextMessage: {
