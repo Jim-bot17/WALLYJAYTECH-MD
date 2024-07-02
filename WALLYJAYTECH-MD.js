@@ -12843,7 +12843,7 @@ ${readmore}
 ${mot} 𝗕𝗼𝘁 : ${botname}
 ${mot} 𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: +${ownernumber}
 ${mot} 𝗣𝗿𝗲𝗳𝗶𝘅 :  [ ${xprefix} ]
-${mot} 𝗠𝗼𝗱𝗲 : ${XliconBotInc.self ? "Public" : `Self`}
+${mot} 𝗠𝗼𝗱𝗲 : ${XliconBotInc.public ? "Public" : `Self`}
 ${mot} 𝗣𝗹𝘂𝗴𝗶𝗻𝘀: ${Xliconfeature()}
 ${mot} 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 ${mot} 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
