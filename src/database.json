@@ -1,7 +1,7 @@
 {
   "users": {
     "2348144317152@s.whatsapp.net": {
-      "serialNumber": "84a6d900b59ff9b86da982ae409f5973",
+      "serialNumber": "",
       "title": "Premium",
       "afkTime": -1,
       "badword": 0,
@@ -11,57 +11,57 @@
       "limit": 1000,
       "totalLimit": 0
     },
-    "2348106206532@s.whatsapp.net": {
+    "2348155763709@s.whatsapp.net": {
       "serialNumber": "",
       "title": "Premium",
       "afkTime": -1,
       "badword": 0,
       "afkReason": "",
-      "nick": "Ok",
-      "premium": true,
+      "nick": "Oke",
+      "premium": false,
       "limit": 1000,
       "totalLimit": 0
     }
   },
   "database": {},
   "chats": {
-    "": {
-      "badword": true,
+    "120363047626537933@g.us": {
+      "badword": false,
       "antiforeignnum": false,
       "antibot": false,
-      "antiviewonce": true,
-      "antivirtex": true,
-      "antimedia": true,
-      "antiimage": true,
-      "antivideo": true,
-      "antiaudio": true,
-      "antipoll": true,
-      "antisticker": true,
-      "antilocation": true,
-      "antidocument": true,
-      "anticontact": true,
-      "antilink": true,
-      "antilinkgc": true
-    },
-    "2348144317152@s.whatsapp.net": {
-      "badword": true,
-      "antiforeignnum": false,
-      "antibot": false,
-      "antiviewonce": true,
-      "antivirtex": true,
-      "antimedia": true,
-      "antiimage": true,
-      "antivideo": true,
-      "antiaudio": true,
-      "antipoll": true,
-      "antisticker": true,
-      "antilocation": true,
-      "antidocument": true,
-      "anticontact": true,
-      "antilink": true,
-      "antilinkgc": true
+      "antiviewonce": false,
+      "antivirtex": false,
+      "antimedia": false,
+      "antiimage": false,
+      "antivideo": false,
+      "antiaudio": false,
+      "antipoll": false,
+      "antisticker": false,
+      "antilocation": false,
+      "antidocument": false,
+      "anticontact": false,
+      "antilink": false,
+      "antilinkgc": false
     },
     "2348106206532@s.whatsapp.net": {
+      "badword": false,
+      "antiforeignnum": false,
+      "antibot": false,
+      "antiviewonce": false,
+      "antivirtex": false,
+      "antimedia": false,
+      "antiimage": false,
+      "antivideo": false,
+      "antiaudio": false,
+      "antipoll": false,
+      "antisticker": false,
+      "antilocation": false,
+      "antidocument": false,
+      "anticontact": false,
+      "antilink": false,
+      "antilinkgc": false
+    },
+    "2348054984935@s.whatsapp.net": {
       "badword": false,
       "antiforeignnum": false,
       "antibot": false,
@@ -84,24 +84,24 @@
     "math": []
   },
   "settings": {
-    "2348144317152@s.whatsapp.net": {
+    "2349073014907@s.whatsapp.net": {
       "totalhit": 49,
       "totalError": 0,
-      "online": true,
-      "autosticker": true,
-      "autobio": true,
-      "autoread": true,
+      "online": false,
+      "autosticker": false,
+      "autobio": false,
+      "autoread": false,
       "autoblocknum": false,
       "onlyindia": false,
       "onlyindo": false,
       "onlygrub": false,
       "onlypc": false,
       "autorecordtype": false,
-      "autorecord": true,
+      "autorecord": false,
       "autotype": false,
       "watermark": {
         "packname": "Sticker By",
-        "author": "🦄드림 가이 wally\n\n+2348144317152"
+        "author": "🦄드림 가이 wallyjaytech\n\n+2348144317152"
       },
       "about": {
         "bot": {
