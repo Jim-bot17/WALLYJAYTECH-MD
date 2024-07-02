@@ -54,15 +54,15 @@ global.botname = process.env.BOT_NAME || 'WALLYJAYTECH-MD' //ur bot name
 //________________________________________________________________________________________________________
 global.ownernumber = process.env.SUDO || '2348144317152' //ur owner number
 //________________________________________________________________________________________________________
-global.ownername = process.env.SUDO_NAME || 'WALLY JAY' //ur owner name
+global.ownername = process.env.SUDO_NAME || 'WALLY JAY TECH' //ur owner name
 //________________________________________________________________________________________________________
 global.websitex = process.env.YT_LINK || "https://youtube.com/@wallyjaytechy"
 //________________________________________________________________________________________________________
-global.wagc = process.env.GL_PUSH || "https://wa.me/2348144317152"
+global.wagc = process.env.GL_PUSH || "https://chat.whatsapp.com/FTuAbXCgwPLDt96BK7bm5P"
 //________________________________________________________________________________________________________
 global.themeemoji = process.env.GL_EMOJI || '🤖'
 //________________________________________________________________________________________________________
-global.wm = process.env.GL_WM || "© 2024 WALLYJAYTECH-INC"
+global.wm = process.env.GL_WM || "© 2024 WALLYJAYTECH-INC 🤖"
 //________________________________________________________________________________________________________
 global.botscript = process.env.GL_SC || 'https://github.com/wallyjaytechy/WALLYJAYTECH-MD' //script link
 //________________________________________________________________________________________________________
@@ -85,9 +85,9 @@ global.typemenu = process.env.MENU_DESIGN || 'v4' // menu type 'v1' => 'v8'
 //________________________________________________________________________________________________________
 global.typereply = process.env.REPLY_TYPE || 'v2' // reply type 'v1' => 'v3'
 //________________________________________________________________________________________________________
-global.autoblocknumber = process.env.AUTO_BAN || '212' //set autoblock country code
+global.autoblocknumber = process.env.AUTO_BAN || '92' //set autoblock country code
 //________________________________________________________________________________________________________
-global.antiforeignnumber = process.env.AUTO_BLOCK || '212' //set anti foreign number country code
+global.antiforeignnumber = process.env.AUTO_BLOCK || '92' //set anti foreign number country code
 //________________________________________________________________________________________________________
 global.welcome = process.env.WELCOME_MSG || true //welcome/left in groups
 //________________________________________________________________________________________________________
@@ -105,9 +105,9 @@ global.groupevent = process.env.GROUP_ANNOUNCE_MSG || true //show update message
 global.mess = {
 	limit: '_*Your limit is up!*_',
 	nsfw: '_*Nsfw is disabled in this group, Please tell the admin to enable, or contact sir wally jay tech the bot creator, thank you ♥*_',
-    done: '_*Successful ✓*_',
-    error: '_*I am having error to execute this, please try again later dear*_',
-    success: '_*Here you go! wally jay tech did it*_'
+    done: '_*Successful Dear ✓*_',
+    error: '_*uhhh Sorry, I am having error in executing this, please try again later darling*_',
+    success: '_*Here you go! powered by wally jay tech 🤖*_'
 }
 //thumbnail
 global.thumb = fs.readFileSync('./WallyjaytechMedia/theme/Wallyjaytechpic.jpg')
