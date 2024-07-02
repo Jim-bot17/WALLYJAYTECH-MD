@@ -12879,6 +12879,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
 │➛ ${xprefix}ᴅᴏᴡɴʟᴏᴀᴅᴍᴇɴᴜ
 │➛ ${xprefix}ғᴜɴᴍᴇɴᴜ
 │➛ ${xprefix}ᴀɪᴍᴇɴᴜ
+│➛ ${xprefix}ɢᴀᴍᴇsᴍᴇɴᴜ
 │➛ ${xprefix}ɢʀᴏᴜᴘᴍᴇɴᴜ
 │➛ ${xprefix}ᴏᴡɴᴇʀᴍᴇɴᴜ
 │➛ ${xprefix}ᴘʜᴏᴛᴏᴏxʏᴍᴇɴᴜ
@@ -13049,7 +13050,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
 ┃ *ʙᴏᴛ ɴᴀᴍᴇ* : ${botname}
 ┃ *ᴘʟᴜɢɪɴs* : ${Xliconfeature()}
 ┃ *ᴘʀᴇғɪx* :  [ ${prefix} ]
-┃ *ᴠᴇʀsɪᴏɴ* : 4.4.4
+┃ *ᴠᴇʀsɪᴏɴ* : 1.0
 ┃ *ᴍᴏᴅᴇ* : ${XliconBotInc.self ? "Public" : `Self`}
 ┃ *ᴛʏᴘᴇ sᴄʀɪᴘᴛ* : ɴᴏᴅᴇ_ᴊs
 ┃ *ʜᴏsᴛ* : ʟɪɴᴜx
@@ -15938,6 +15939,158 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
             );
           }         
         }
+        break;
+      case "gamesmenu":
+        {
+          let xmenu_oh = `Hi ${pushname}${readmore}\n\n${gamesmenu(
+            prefix,
+            hituet
+          )}`;
+          if (typemenu === "v1") {
+            XliconBotInc.sendMessage(
+              m.chat,
+              {
+                image: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechpic.jpg"),
+                caption: xmenu_oh,
+              },
+              {
+                quoted: m,
+              }
+            );
+          } else if (typemenu === "v2") {
+            XliconBotInc.sendMessage(
+              m.chat,
+              {
+                text: xmenu_oh,
+                contextInfo: {
+                  externalAdReply: {
+                    showAdAttribution: true,
+                    title: botname,
+                    body: ownername,
+                    thumbnail: fs.readFileSync(
+                      "./WallyjaytechMedia/theme/Wallyjaytechpic.jpg"
+                    ),
+                    sourceUrl: wagc,
+                    mediaType: 1,
+                    renderLargerThumbnail: true,
+                  },
+                },
+              },
+              {
+                quoted: m,
+              }
+            );
+          }
+          if (typemenu === "v3") {
+            XliconBotInc.sendMessage(
+              m.chat,
+              {
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid.mp4"),
+                caption: xmenu_oh,
+              },
+              {
+                quoted: m,
+              }
+            );
+          } else if (typemenu === "v4") {
+            XliconBotInc.sendMessage(
+              m.chat,
+              {
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid2.mp4"),
+                caption: xmenu_oh,
+                gifPlayback: true,
+              },
+              {
+                quoted: m,
+              }
+            );
+          } else if (typemenu === "v5") {
+            XliconBotInc.relayMessage(
+              m.chat,
+              {
+                scheduledCallCreationMessage: {
+                  callType: "AUDIO",
+                  scheduledTimestampMs: 1200,
+                  title: xmenu_oh,
+                },
+              },
+              {}
+            );
+          } else if (typemenu === "v6") {
+            XliconBotInc.relayMessage(
+              m.chat,
+              {
+                requestPaymentMessage: {
+                  currencyCodeIso4217: "USD",
+                  amount1000: "9999999900",
+                  requestFrom: m.sender,
+                  noteMessage: {
+                    extendedTextMessage: {
+                      text: xmenu_oh,
+                      contextInfo: {
+                        externalAdReply: {
+                          showAdAttribution: true,
+                        },
+                      },
+                    },
+                  },
+                },
+              },
+              {}
+            );
+          } else if (typemenu === "v7") {
+            XliconBotInc.sendMessage(
+              m.chat,
+              {
+                document: {
+                  url: "https://i.ibb.co/2W0H9Jq/avatar-contact.png",
+                },
+                caption: xmenu_oh,
+                mimetype: "application/zip",
+                fileName: ownername,
+                fileLength: "99999999999",
+                contextInfo: {
+                  externalAdReply: {
+                    showAdAttribution: true,
+                    title: botname,
+                    body: ownername,
+                    thumbnail: fs.readFileSync(
+                      "./WallyjaytechMedia/theme/Wallyjaytechpic.jpg"
+                    ),
+                    sourceUrl: wagc,
+                    mediaType: 1,
+                    renderLargerThumbnail: true,
+                  },
+                },
+              },
+              {
+                quoted: fstatus,
+              }
+            );
+          } else if (typemenu === "v8") {
+            XliconBotInc.sendMessage(
+              m.chat,
+              {
+                video: fs.readFileSync("./WallyjaytechMedia/theme/Wallyjaytechvid3.mp4"),
+                gifPlayback: true,
+                caption: xmenu_oh,
+                contextInfo: {
+                  externalAdReply: {
+                    title: botname,
+                    body: ownername,
+                    thumbnailUrl: "https://th.bing.com/th/id/R.4e760dd41c2870650b64e576d82bca02?rik=srZ%2bdDoHqyeNFw&pid=ImgRaw&r=0",
+                    sourceUrl: ``,
+                    mediaType: 1,
+                    renderLargerThumbnail: true,
+                  },
+                },
+              },
+              {
+                quoted: m,
+              }
+            );
+          }         
+        }      
         break;
       case "checkaccount":
       case "account":
