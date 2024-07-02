@@ -8325,7 +8325,6 @@ Cieeee, What's Going On❤️💖👀`,
       break;
       case "sexydare":
         const sexydare = [
-                  "",
          "Give over your phone to your partner and let them decide on a sex toy you two can try together.",
          "Have your partner read through your browsing history in a sexy voice.",
          "Make a sexy song playlist with your partner.",
@@ -8746,7 +8745,7 @@ Cieeee, What's Going On❤️💖👀`,
       break;
       case "friendsdare":
         const friendsdare = [
-                  "Describe your ideal boobs in detail.",
+         "Describe your ideal boobs in detail.",
          "Describe your ideal size, shape and any other traits of your ideal dick.",
          "Tell us the one thing you love the most in men’s or women’s bodies.",
          "Do a lap dance and striptease to all opposite-sex persons in this game.",
@@ -8913,7 +8912,7 @@ Cieeee, What's Going On❤️💖👀`,
         );
         XliconBotInc.sendMessage(
           from,
-          { image: buffernormaldare, caption: "_You choose TRUTH_\n" + xeonnormaldare },
+           { image: buffernormaldare, caption: "_You choose DARE_\n" + xeonnormaldare },
           { quoted: m }         
          );
         break;
