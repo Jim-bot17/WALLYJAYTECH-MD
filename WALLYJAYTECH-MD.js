@@ -773,7 +773,6 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
           anticontact: false,
           antilink: false,
           antilinkgc: false,
-
         };
 
       let setting = global.db.data.settings[botNumber];
@@ -781,12 +780,12 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
       if (setting) {
         if (!("totalhit" in setting)) setting.totalhit = 0;
         if (!("totalError" in setting)) setting.totalError = 0;
-        if (!("online" in setting)) setting.online = true;
-        if (!("autosticker" in setting)) setting.autosticker = true;
-        if (!("autobio" in setting)) setting.autobio = true;
-        if (!("autoread" in setting)) setting.autoread = true;
+        if (!("online" in setting)) setting.online = false;
+        if (!("autosticker" in setting)) setting.autosticker = false;
+        if (!("autobio" in setting)) setting.autobio = false;
+        if (!("autoread" in setting)) setting.autoread = false;
         if (!("autorecordtype" in setting)) setting.autorecordtype = false;
-        if (!("autorecord" in setting)) setting.autorecord = true;
+        if (!("autorecord" in setting)) setting.autorecord = false;
         if (!("autotype" in setting)) setting.autotype = false;
         if (!("autoblocknum" in setting)) setting.autoblocknum = false;
         if (!("onlyindia" in setting)) setting.onlyindia = false;
@@ -808,17 +807,17 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
         global.db.data.settings[botNumber] = {
           totalhit: 0,
           totalError: 0,
-          online: true,
-          autosticker: true,
-          autobio: true,
-          autoread: true,
+          online: false,
+          autosticker: false,
+          autobio: false,
+          autoread: false,
           autoblocknum: false,
           onlyindia: false,
           onlyindo: false,
           onlygrub: false,
           onlypc: false,
           autorecordtype: false,
-          autorecord: true,
+          autorecord: false,
           autotype: false,
           watermark: {
             packname: global.packname,
