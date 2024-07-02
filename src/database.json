@@ -43,7 +43,7 @@
       "antilink": true,
       "antilinkgc": true
     },
-    "2348144317152@s.whatsapp.net": {
+    "2348144327152@s.whatsapp.net": {
       "badword": true,
       "antiforeignnum": false,
       "antibot": false,
@@ -84,7 +84,7 @@
     "math": []
   },
   "settings": {
-    "2348144317152@s.whatsapp.net": {
+    "2348144327152@s.whatsapp.net": {
       "totalhit": 49,
       "totalError": 0,
       "online": true,
