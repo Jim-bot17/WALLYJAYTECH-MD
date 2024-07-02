@@ -742,7 +742,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
         if (!("badword" in chats)) chats.badword = false;
         if (!("antiforeignnum" in chats)) chats.antiforeignnum = false;
         if (!("antibot" in chats)) chats.antibot = false;
-        if (!("antiviewonce" in chats)) chats.antiviewonce = true;
+        if (!("antiviewonce" in chats)) chats.antiviewonce = false;
         if (!("antimedia" in chats)) chats.media = false;
         if (!("antivirtex" in chats)) chats.antivirtex = false;
         if (!("antiimage" in chats)) chats.antiimage = false;
@@ -760,7 +760,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
           badword: false,
           antiforeignnum: false,
           antibot: false,
-          antiviewonce: true,
+          antiviewonce: false,
           antivirtex: false,
           antimedia: false,
           antiimage: false,
@@ -773,6 +773,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
           anticontact: false,
           antilink: false,
           antilinkgc: false,
+
         };
 
       let setting = global.db.data.settings[botNumber];
@@ -1051,7 +1052,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
       XliconBotInc.updateProfileStatus(
         `${botname} 📃 𝐇𝐚𝐯𝐞 𝐁𝐞𝐞𝐧 𝐑𝐮𝐧𝐧𝐢𝐧𝐠 💻 ${runtime(
           process.uptime()
-        )}...                                   ~𝐒𝐓𝐀𝐑 ⭐ 𝐓𝐡𝐞 𝐁𝐨𝐭 𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲 𝐎𝐧 𝐆𝐢𝐭𝐇𝐮𝐛...                       🏮                                                                           © WALLYJAYTECH-INC
+        )}...                                   ~𝐒𝐓𝐀𝐑 ⭐ 𝐓𝐡𝐞 𝐁𝐨𝐭 𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲 𝐎𝐧 𝐆𝐢𝐭𝐇𝐮𝐛...                       🤖  © WALLYJAYTECH-INC
      `
       ).catch((_) => _);
     }
