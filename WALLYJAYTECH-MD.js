@@ -4219,7 +4219,7 @@ ${themeemoji} URL: ${repoData.html_url}
       case "buypremium":
       case "premiumuser":
         {
-          let teks = `Hi ${pushname}👋\nWant to Buy Premium?Just chat with the owner😉`;
+          let teks = `Hi ${pushname}👋\nWant to Buy Premium?Just chat with my owner, sir Wally Jay Tech will help out😉`;
           await XliconBotInc.sendMessage(
             m.chat,
             {
