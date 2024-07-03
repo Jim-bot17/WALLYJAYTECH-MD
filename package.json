@@ -1,7 +1,7 @@
 {
     "name": "WALLYJAYTECH-MD",
-    "version": "3.0",
-    "description": "Whatsapp Bot By Wally Jay",
+    "version": "1.0",
+    "description": "Whatsapp Bot By Wally Jay Tech",
     "main": "index.js",
     "type": "commonjs",
     "directories": {
@@ -11,8 +11,8 @@
     },
     "scripts": {
         "code": "node main.js",
-        "start": "node index.js"       
-    },     
+        "start": "node index.js"
+    },
     "author": "wallyjaytechy",
     "license": "MIT",
     "dependencies": {
