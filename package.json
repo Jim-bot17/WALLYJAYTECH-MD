@@ -8,15 +8,43 @@
         "lib": "lib",
         "src": "src",
         "media": "WallyjaytechMedia"
+
     },
     "scripts": {
         "code": "node main.js",
         "start": "node index.js"
+     },
+    "keywords": [
+        "termux-whatsapp-bot",
+        "whatsapp-bot",
+        "whatsapp",
+        "js-whatsapp",
+        "whatsapp",
+        "wallyjaytech-bot",
+        "WALLYJAYTECH-bot-md",
+        "multi-device",
+        "MD",
+        "baileys-md"       
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wallyjaytechy/WALLYJAYTECH-MD.git" 
+    },
+    "bugs": {
+        "url": "https://github.com/wallyjaytechy/WALLYJAYTECH-MD/issues"        
+    },
+    "homepage": "https://github.com/wallyjaytechy/WALLYJAYTECH-MD",        
     "author": "wallyjaytechy",
     "license": "MIT",
     "dependencies": {
-        "@whiskeysockets/baileys": "^6.6.0",
+        "@whiskeysockets/baileys": "npm:@whiskeysockets/baileys",
+        "@bochilteam/scraper": "^4.0.22-alpha.0",
+        "@google/generative-ai": "0.1.3",
+        "@brandond/findthelyrics": "^2.0.5",
+        "@green-code/music-track-data": "^2.0.3",
+        "@shineiichijo/marika": "^2.0.6",
+        "@vitalets/google-translate-api": "^9.2.0",   
+        "@xct007/frieren-scraper": "github:xct007/frieren-scraper",        
         "@adiwajshing/keyed-db": "^0.2.4",
         "@hapi/boom": "^10.0.1",
         "anime-wallpaper": "^1.0.2",
@@ -65,7 +93,7 @@
         "@vitalets/google-translate-api": "^9.2.0",
         "youtube-yts": "^2.0.0",
         "ytdl-core": "^4.11.5",
-        "youtubedl-core": "^4.11.5",
+        "youtubedl-core": "npm:@distube/ytdl-core"
         "yt-search": "^2.10.4"
     }
 }                
