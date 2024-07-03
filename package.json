@@ -8,7 +8,6 @@
         "lib": "lib",
         "src": "src",
         "media": "WallyjaytechMedia"
-
     },
     "scripts": {
         "code": "node main.js",
