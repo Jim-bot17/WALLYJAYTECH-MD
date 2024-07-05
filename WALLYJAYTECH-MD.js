@@ -3778,7 +3778,7 @@ https://chat.whatsapp.com/${response}`;
           ).then((res) => replygcXlicon(`Success Opening Group`));
         } else {
           replygcXlicon(
-            `Mode ${command}\n\n\nKetik ${prefix + command}open/close`
+            `Mode ${command}\n\n\nExample ${prefix + command} open/close`
           );
         }
         break;
