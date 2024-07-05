@@ -3422,7 +3422,7 @@ click https://wa.me/${botNumber.split`@`[0]}`,
           }
           let nmfilect = "./contacts.vcf";
           replygcXlicon(
-            "\nBe patient bro, saving... " +
+            "\n*Be patient cutie 😍 wally jay jech is having it saved right away, thank you...* " +
               cmiggc.participants.length +
               " contact"
           );
