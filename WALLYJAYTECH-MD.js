@@ -3578,7 +3578,7 @@ click https://wa.me/${botNumber.split`@`[0]}`,
           const participants = m.isGroup
             ? await groupMetadata.participants
             : "";
-          let textt = `_Here is jid address of all users of_\n *- ${groupMetadata.subject}*\n\n`;
+          let textt = `_*Here is jid address of all users of*_\n *- ${groupMetadata.subject}*\n\n`;
           for (let mem of participants) {
             textt += `${themeemoji} ${mem.id}\n`;
           }
