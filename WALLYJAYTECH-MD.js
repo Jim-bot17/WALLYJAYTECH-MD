@@ -6029,7 +6029,7 @@ ${meg.result}`);
         {
           if (!text)
             return replygcXlicon(
-              `Example : ${prefix + command} wallyjaytechy`
+              `*Example : ${prefix + command} wallyjaytechy*`
             );
           let yts = require("yt-search");
           let search = await yts(text);
