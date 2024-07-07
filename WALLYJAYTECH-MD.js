@@ -6024,7 +6024,6 @@ ${meg.result}`);
           replygcXlicon(teks);
         }
         break;
-      case "yts":
       case "ytsearch":
         {
           if (!text)
@@ -6119,14 +6118,13 @@ ${meg.result}`);
         await fs.unlinkSync(audio.path);
         break;
       case "ytmp4":
-      case "ytvideo":
         {
           const xeonvidoh = require("./lib/ytdl");
           if (args.length < 1 || !isUrl(text) || !xeonvidoh.isYTUrl(text))
             replygcXlicon(
-              `Where is the link??\n\nExample : ${
+              `*Where is the link??*\n\n*Example : ${
                 prefix + command
-              } https://youtu.be/_zeJS0JCtp0?si=y5ONalAMDkBP163w 360p`
+              } https://youtu.be/_zeJS0JCtp0?si=y5ONalAMDkBP163w 360p*`
             );
           const vid = await xeonvidoh.mp4(text);
           const ytc = `
@@ -11713,16 +11711,12 @@ ${listAdmin}
           );
         }
         break;
-      case "instagram":
       case "igvideo":
-      case "igimage":
-      case "igvid":
-      case "igimg":
-      case "ig":
+      case "igimage":      
         {
           if (!text)
             return replygcXlicon(
-              `You need to give the URL of Any Instagram video, post, reel, image`
+              `*You need to give the URL of Any Instagram video, post, reel, image*`
             );
           let res;
           try {
@@ -11760,9 +11754,8 @@ ${listAdmin}
         }
         break;
       case "apk":
-      case "apkdl":
         {
-          if (!text) return replygcXlicon("What apk u wanna download?");
+          if (!text) return replygcXlicon("*What apk you do like to download?*");
           let resxeon = await fetch(
             `https://api.maher-zubair.tech/download/apk?id=${text}`
           );
@@ -11893,7 +11886,7 @@ ${listAdmin}
         break;
       case "itunes":
         {
-          if (!text) return replygcXlicon("Please provide a song name, idk wizkid");
+          if (!text) return replygcXlicon("*Please provide a song name, olamide metaverse*");
           try {
             let res = await fetch(
               `https://api.popcat.xyz/itunes?q=${encodeURIComponent(text)}`
