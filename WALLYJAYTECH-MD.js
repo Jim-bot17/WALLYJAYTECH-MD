@@ -6139,11 +6139,10 @@ ${meg.result}`);
           );
         }
         break;
-      case "git":
       case "gitclone":
         if (!args[0])
           return replygcXlicon(
-            `Where is the link?\nExample :\n${prefix}${command} https://github.com/wallyjaytechy/WALLYJAYTECHY-MD`
+          `*Where is the link?*\n*Example :*\n*${prefix}${command} https://github.com/wallyjaytechy/WALLYJAYTECHY-MD*`
           );
         if (!isUrl(args[0]))
           return replygcXlicon("Link invalid! Please provide a valid URL.");
@@ -6649,7 +6648,7 @@ ID Zone: ${q.split("|")[1]}`);
         {
           if (!q)
             return replygcXlicon(
-              `Example ${prefix + command} Temple Run Mod`
+              `*Example ${prefix + command} Temple Run Mod*`
             );
           await XliconStickWait();
           let kat = await scp2.happymod(q);
