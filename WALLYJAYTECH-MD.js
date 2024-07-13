@@ -3307,16 +3307,13 @@ click https://wa.me/${botNumber.split`@`[0]}`,
           );
         }
         break;
-      case "wanumber":
-      case "nowa":
-      case "searchno":
       case "searchnumber":
         {
           if (!text)
             return replygcXlicon(
-              `*_Provide Number with last number x_*\n\nExample: ${
+              `*_Provide Number with last number x_*\n\n*Example: ${
                 prefix + command
-              } 23481443175x`
+              } 23481443175x*`
             );
           var inputnumber = text.split(" ")[0];
 
@@ -6243,7 +6240,7 @@ ${meg.result}`);
         break;
       case "weather":
         {
-          if (!text) return replygcXlicon("What Country?");
+          if (!text) return replygcXlicon("*Which Country Current Weather Would You like To Know?*");
           let city = text.split(" ")[0];
           let wdata = await axios.get(
             `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=060a6bcfa19809c2cd4d97a212b19273&language=en`
@@ -6272,7 +6269,6 @@ ${meg.result}`);
           );
         }
         break;
-      case "fb":
       case "facebook":
         {
           if (!args[0]) {
@@ -6596,24 +6592,24 @@ ID Zone: ${q.split("|")[1]}`);
         let imdbt = "";
         console.log(fids.data);
         imdbt +=
-          "⚍⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚍\n" + " ``` IMDB SEARCH```\n" + "⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n";
-        imdbt += "🎬Title      : " + fids.data.Title + "\n";
-        imdbt += "📅Year       : " + fids.data.Year + "\n";
-        imdbt += "⭐Rated      : " + fids.data.Rated + "\n";
-        imdbt += "📆Released   : " + fids.data.Released + "\n";
-        imdbt += "⏳Runtime    : " + fids.data.Runtime + "\n";
-        imdbt += "🌀Genre      : " + fids.data.Genre + "\n";
-        imdbt += "👨🏻‍💻Director   : " + fids.data.Director + "\n";
-        imdbt += "✍Writer     : " + fids.data.Writer + "\n";
-        imdbt += "👨Actors     : " + fids.data.Actors + "\n";
-        imdbt += "📃Plot       : " + fids.data.Plot + "\n";
-        imdbt += "🌐Language   : " + fids.data.Language + "\n";
-        imdbt += "🌍Country    : " + fids.data.Country + "\n";
-        imdbt += "🎖️Awards     : " + fids.data.Awards + "\n";
-        imdbt += "📦BoxOffice  : " + fids.data.BoxOffice + "\n";
-        imdbt += "🏙️Production : " + fids.data.Production + "\n";
-        imdbt += "🌟imdbRating : " + fids.data.imdbRating + "\n";
-        imdbt += "✅imdbVotes  : " + fids.data.imdbVotes + "";
+          "*⚍⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚍*\n" + "```     IMDB SEARCH```\n" + "*⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎*\n";
+        imdbt += "*🎬Title*      : " + fids.data.Title + "\n";
+        imdbt += "*📅Year*       : " + fids.data.Year + "\n";
+        imdbt += "*⭐Rated*      : " + fids.data.Rated + "\n";
+        imdbt += "*📆Released*   : " + fids.data.Released + "\n";
+        imdbt += "*⏳Runtime*    : " + fids.data.Runtime + "\n";
+        imdbt += "*🌀Genre*      : " + fids.data.Genre + "\n";
+        imdbt += "*👨🏻‍💻Director*   : " + fids.data.Director + "\n";
+        imdbt += "*✍Writer*     : " + fids.data.Writer + "\n";
+        imdbt += "*👨Actors*     : " + fids.data.Actors + "\n";
+        imdbt += "*📃Plot*       : " + fids.data.Plot + "\n";
+        imdbt += "*🌐Language*   : " + fids.data.Language + "\n";
+        imdbt += "*🌍Country*    : " + fids.data.Country + "\n";
+        imdbt += "*🎖️Awards*     : " + fids.data.Awards + "\n";
+        imdbt += "*📦BoxOffice*  : " + fids.data.BoxOffice + "\n";
+        imdbt += "*🏙️Production* : " + fids.data.Production + "\n";
+        imdbt += "*🌟imdbRating* : " + fids.data.imdbRating + "\n";
+        imdbt += "*✅imdbVotes*  : " + fids.data.imdbVotes + "";
         XliconBotInc.sendMessage(
           m.chat,
           {
@@ -11755,7 +11751,7 @@ ${listAdmin}
         break;
       case "apk":
         {
-          if (!text) return replygcXlicon("*What apk you do like to download?*");
+          if (!text) return replygcXlicon("*Which apk would you like to download dear?*");
           let resxeon = await fetch(
             `https://api.maher-zubair.tech/download/apk?id=${text}`
           );
