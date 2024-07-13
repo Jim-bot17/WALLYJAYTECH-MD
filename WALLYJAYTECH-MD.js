@@ -6227,15 +6227,15 @@ ${meg.result}`);
       case "google":
         {
           if (!q)
-            return replygcXlicon(`Example : ${prefix + command} ${botname}`);
+            return replygcXlicon(`*Example : .google Who Is God?*`);
           await XliconStickWait();
           let google = require("google-it");
           google({ query: text }).then((res) => {
             let teks = `Google Search From : ${text}\n\n`;
             for (let g of res) {
-              teks += `⭔ *Title* : ${g.title}\n`;
-              teks += `⭔ *Description* : ${g.snippet}\n`;
-              teks += `⭔ *Link* : ${g.link}\n\n────────────────────────\n\n`;
+              teks += `*⭔ Title* : ${g.title}\n`;
+              teks += `*⭔ Description* : ${g.snippet}\n`;
+              teks += `*⭔ Link* : ${g.link}\n\n────────────────────────\n\n`;
             }
             replygcXlicon(teks);
           });
